@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   --ms-box-sizing: border-box;
+}
+body {
+    font-family:  'Young Serif';
+    font-family: Outfit;
+}
+:root {
+    --sectio-margin: 2rem;
+    --section-padding: .5rem;
+}
+h2 {
+    font-weight: bold;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+   margin: 0 auto;
+}
+@media (min-width: 767px) {
+    .container {
+        width: 750px
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px    
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px
+    }
+}
+.scetion {
+    padding: 60px 0;
+    background-color: hsl(30, 54%, 90%)
+}
+.scetion .container {
+    background-color: #fff;
+    border-radius: 25px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;   
+}
+.scetion .container .iamge   {
+    width: 100%;    
+}
+.scetion .container .iamge img{
+    max-width: 100%; 
+}
+@media (max-width: 767px) {
+   .scetion .container  {
+    position: relative;
+    top: -7rem;
+      
+    }
+}
+.scetion .container .text {
+    margin-top: 1rem;
+}
+.scetion .container .text h1 {
+    font-size: 2.5rem;
+}
+.scetion .container .text p {
+    line-height: 1.6;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+.scetion .container .prep {
+    background-color: hsl(330, 100%, 98%);
+}
+.scetion .container .prep h2{
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 1rem;
+    margin-left: 2rem;   
+}
+.scetion .container .prep .list  {
+    margin-left: 1rem;
+    margin-left: 2rem;
+}
+.scetion .container .prep .list li{
+     margin-left: 1rem;
+    margin-top: .5rem;
+    color: hsl(14, 45%, 36%);
+}
+.scetion .container .prep .list p {
+    margin-left: 1rem;
+    color: #000;
+}
+.scetion .container .prep .list p span {
+    font-weight: bold;
+}
+/* .scetion .container .prep .list li span::first-letter{
+   font-weight: bold;
+} */
+.scetion .container .ingred {
+     margin-top: var(--sectio-margin);
+         border-bottom: 1px solid #DDD;
+}
+.scetion .container .ingred  h2{
+    color:  hsl(14, 45%, 36%);
+}
+.scetion .container .ingred .ingre-list {
+    margin: 2rem
+}
+.scetion .container .ingred .ingre-list li{
+        margin-top: var(--section-padding);
+        color: hsl(14, 45%, 36%);
+} 
+.scetion .container .ingred .ingre-list li span {
+    margin-left: 1rem;
+}
+.scetion .container .inst {
+    margin-top: var(--sectio-margin);
+        border-bottom: 1px solid #DDD;
+}
+.scetion .container .inst h2 {
+   color:  hsl(14, 45%, 36%);
+
+
+}
+.scetion .container .inst .inst-list {
+    margin: 2rem;
+}
+.scetion .container .inst .inst-list li {
+    margin: 1rem 0;
+}
+.scetion .container .inst .inst-list p {
+        margin-left: 1rem;
+    line-height: 1.5;
+} 
+.scetion .container .inst .inst-list p span {
+    font-weight: bold;
+} 
+.scetion .container .Nutrition {
+    margin-top: var(--sectio-margin);
+}
+.scetion .container .Nutrition h2 {
+    color: hsl(14, 45%, 36%);
+}
+.scetion .container .Nutrition p {
+margin: 1rem 0;
+}
+.scetion .container .Nutrition .index {
+    position: relative;
+}
+.scetion .container .Nutrition .index p {
+    margin-left: 2rem;
+    padding: 1rem;
+}
+.scetion .container .Nutrition .index p:not(:last-child) {
+    border-bottom: 1px solid #DDD;
+    padding-top: .5rem;
+}
+.scetion .container .Nutrition p span {
+    position: absolute;
+    left: 50%;
+     color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+}
+ 
